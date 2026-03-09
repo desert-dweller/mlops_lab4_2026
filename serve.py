@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 app = FastAPI(title="Wine Quality API", description="Predicts if a red wine is premium.")
 
 # 1. Load your DagsHub credentials from the .env file
-load_dotenv()
+# load_dotenv()
 
 # 2. Load the model directly from the DagsHub registry! 
 # (Make sure you actually registered the model in the DagsHub UI first)
