@@ -3,6 +3,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 import mlflow
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Set up MLflow
 mlflow.set_experiment("Wine Quality Prediction")
