@@ -5,7 +5,6 @@ from sklearn.metrics import accuracy_score
 import mlflow
 
 # Set up MLflow
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
 mlflow.set_experiment("Wine Quality Prediction")
 
 # Load versioned data
