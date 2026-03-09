@@ -1,0 +1,23 @@
+artifact_path: /home/karim/Documents/NU/Teaching/Spring '26/AIS477 - MLOps/Lab 4/mlops_lab4_2026/mlruns/1/models/m-ba3067bf0707476dbc19406af623fb3f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-ba3067bf0707476dbc19406af623fb3f
+model_size_bytes: 134049
+model_uuid: m-ba3067bf0707476dbc19406af623fb3f
+prompts: null
+run_id: 518fe48def7c483aa063d18469048770
+utc_time_created: '2026-03-09 08:50:09.287350'
